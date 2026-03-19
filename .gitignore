@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# MLX/Model files
+models/
+data/
+*.safetensors
+*.bin
+*.pt
+*.pth
+checkpoint-*/
+
+# Logs
+logs/
+*.log
+output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config
+config.yaml
+.env
+.env.local
+
+# Training artifacts
+adapters/
+checkpoints/
+metrics.jsonl
+training.log
