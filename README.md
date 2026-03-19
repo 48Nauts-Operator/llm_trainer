@@ -36,11 +36,14 @@ python scripts/test_model.py
 
 ## Hardware Requirements
 
-| Computer | RAM | Training Performance | Recommended |
-|----------|-----|---------------------|-------------|
+| Computer | RAM/VRAM | Training Performance | Recommended |
+|----------|-----------|---------------------|-------------|
 | MacBook Air M1/M2 (8GB) | 8GB | Slow but works | ⚠️ Basic use only |
 | MacBook Pro M3 (16GB+) | 16GB+ | Fast | ✅ Excellent |
 | Mac Studio/Pro (24GB+) | 24GB+ | Very fast | ✅ Ideal |
+| **NVIDIA GPU PC** | **8GB+ VRAM** | **Fast-Excellent** | **✅ See GPU Guide** |
+
+**For Windows/Linux users:** See [GPU Training Guide](docs/gpu-training-guide.md) for NVIDIA GPU setup (supports 7B-30B models).
 
 ## File Structure
 
@@ -48,7 +51,8 @@ python scripts/test_model.py
 llm_trainer/
 ├── README.md                    # This file
 ├── docs/
-│   └── complete-guide.md        # Full training guide
+│   ├── complete-guide.md        # Full training guide (Mac/MLX)
+│   └── gpu-training-guide.md    # GPU training guide (Windows/Linux)
 ├── scripts/
 │   ├── setup.sh                # Environment setup
 │   ├── generate_training_data.py # Create business-specific training data

@@ -40,9 +40,10 @@ Fine-tuning is like giving that graduate a detailed training program about YOUR 
 | MacBook Air M1/M2 (8GB) | 8GB | ✅ Small models only | Slow but works |
 | MacBook Pro M3 (16GB+) | 16GB+ | ✅ Good performance | Fast training |
 | Mac Studio/Pro (24GB+) | 24GB+ | ✅ Excellent | Very fast training |
-| Windows/Linux PC | 16GB+ | ⚠️ Possible but harder | Varies significantly |
+| Windows/Linux PC | 16GB+ | ⚠️ More complex setup | See GPU Training Guide |
+| NVIDIA GPU PC | 8GB+ VRAM | ✅ Excellent for larger models | See GPU Training Guide |
 
-**Apple Silicon Macs are strongly recommended** due to unified memory architecture and excellent ML performance.
+**Apple Silicon Macs are strongly recommended** for simplicity. **NVIDIA GPUs** enable larger models (7B-30B parameters). See the [GPU Training Guide](gpu-training-guide.md) for Windows/Linux setup.
 
 ### Software Requirements
 - **macOS 12+** (for Apple Silicon optimization)
